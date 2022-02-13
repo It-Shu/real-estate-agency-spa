@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { PATH } from '../../Routs/routes';
 import s from './NavBar.module.scss'
+
 const NavBar = () => {
     return (
         <div className={s.navbar}>
