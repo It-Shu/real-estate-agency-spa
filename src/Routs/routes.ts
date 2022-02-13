@@ -1,8 +1,9 @@
-import {FC} from 'react'
-import Contacts from '../Pages/Contacts/Contacts';
-import Home from "../Pages/Home/Home";
-import News from '../Pages/News/News';
-import Objects from "../Pages/Objects/Objects";
+// import {FC} from 'react'
+// import Contacts from '../Pages/Contacts/Contacts';
+// import Home from "../Pages/Home/Home";
+// import News from '../Pages/News/News';
+// import Objects from "../Pages/Objects/Objects";
+// import Header from "../Pages/Header/Header";
 
 export enum PATH {
     HOME = '/',
@@ -13,15 +14,15 @@ export enum PATH {
     OBJECTS = '/objects',
 }
 
-type Routes = {
-    path: string,
-    component: FC
-    exact?: boolean
-}
+// type Routes = {
+//     path: string,
+//     element: FC
+//     exact?: boolean
+// }
 
-export const publicRoutes: Routes[] = [
-    {path: PATH.HOME, component: Home, exact: true},
-    {path: PATH.NEWS, component: News},
-    {path: PATH.CONTACTS, component: Contacts},
-    {path: PATH.OBJECTS, component: Objects},
-]
+// export const publicRoutes: Routes[] = [
+//     {path: PATH.HOME, element: Home, exact: true},
+//     {path: PATH.NEWS, element: News},
+//     {path: PATH.CONTACTS, element: Contacts},
+//     {path: PATH.OBJECTS, element: Objects},
+// ]
