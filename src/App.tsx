@@ -7,8 +7,11 @@ function App() {
 
   return (
       <BrowserRouter>
-          <Header/>
-          <AppRoutes/>
+          <div >
+              <Header/>
+              <AppRoutes/>
+          </div>
+
       </BrowserRouter>
   );
 }

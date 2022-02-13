@@ -1,11 +1,16 @@
-.header{
+.header {
+  height: 135px;
   display: flex;
-  flex-direction: row-reverse;
-  //background-image: url("D:\Develop\real-estate-agency-spa\src\assets\images");
+  flex-direction: row;
+  background-color: #C8D7E1;
+  //border-radius: 20px;
+}
+
+.background{
+
 }
 
 .logo {
-  width: 450px;
-  height: 200px;
-  border-radius: 5px;
+  width: 350px;
+  height: 145px;
 }

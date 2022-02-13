@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <div className={s.navbar}>
             <NavLink to={PATH.HOME}>
-                <button className={s.button}>Главная</button>
+                <button className={s.button} >Главная</button>
             </NavLink>
 
             <NavLink to={PATH.NEWS}>
