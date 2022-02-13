@@ -8,11 +8,16 @@ import google from "../Footer/google.png";
 
 const Header = () => {
     return (
+
         <div className={s.header}>
             <div className={s.background}>
                 <img className={s.logo} src={'https://www.downloadclipart.net/large/real-estate-png-photos.png'} alt="logo"/>
             </div>
+            <div className={s.navbar}>
                 <NavBar/>
+            </div>
+
+
             <div className={s.img_block}>
                 <a href="https://vk.com/annlider69">
                     <img className={s.img} src={vk} alt="vk"/>

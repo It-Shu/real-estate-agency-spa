@@ -5,7 +5,7 @@ import s from './NavBar.module.scss'
 
 const NavBar = () => {
     return (
-        <div className={s.navbar}>
+        <div className={s.navbar1}>
             <NavLink to={PATH.HOME}>
                 {/*<button className={s.button} >Главная</button>*/}
                 <a  className={s.button1}>Главная</a>
