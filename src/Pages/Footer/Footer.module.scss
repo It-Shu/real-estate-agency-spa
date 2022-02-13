@@ -1,4 +1,12 @@
-.block {
+.footer {
   display: flex;
-  background-color: #C8D7E1;
+  height: 100px;
+  background-color: #B7D1C7;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.h {
+  margin: 0;
 }

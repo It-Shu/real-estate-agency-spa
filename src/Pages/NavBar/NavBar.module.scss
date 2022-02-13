@@ -1,44 +1,52 @@
 .navbar {
   display: flex;
-  //flex-direction: row;
   align-items: center;
-  //margin-left: ;
-  //flex-flow: row nowrap;
 }
 
 .button {
   animation: button 6s infinite;
-  position: relative;
-  display: inline-block;
+  //position: relative;
+  //display: inline-block;
   padding: 0.5em 3em;
-  border: 1px solid #de911e;
+  border: 1px solid #FEBE10;
   margin: 0 0.3em 0.3em 0;
   border-radius: 20px;
   text-transform: uppercase;
-  font-weight: 400;
-  color: #de911e;
+  font-weight: bold;
+  color: #FEBE10;
+  background-color: #3898D3;
 }
 
-@keyframes button {
-  0% {
-    top: 0em
-  }
-  40% {
-    top: 0em
-  }
-  43% {
-    top: -0.9em
-  }
-  46% {
-    top: 0em
-  }
-  48% {
-    top: -0.4em
-  }
-  50% {
-    top: 0em
-  }
-  100% {
-    top: 0em;
-  }
+.button:hover{
+  color: #3898D3;
+  background-color: #de911e;
 }
+
+.button:active{
+  color: #0476bb;
+  background-color: #9d6203;
+}
+
+//@keyframes button {
+//  0% {
+//    top: 0em
+//  }
+//  40% {
+//    top: 0em
+//  }
+//  43% {
+//    top: -0.9em
+//  }
+//  46% {
+//    top: 0em
+//  }
+//  48% {
+//    top: -0.4em
+//  }
+//  50% {
+//    top: 0em
+//  }
+//  100% {
+//    top: 0em;
+//  }
+//}
