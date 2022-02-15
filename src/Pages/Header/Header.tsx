@@ -4,7 +4,6 @@ import NavBar from "../NavBar/NavBar";
 import vk from "../Footer/vkontakte.png";
 import yandex from "../Footer/yandex.png";
 import google from "../Footer/google.png";
-// import logo from '../../assets/images/logo1.jpg'
 
 const Header = () => {
     return (
